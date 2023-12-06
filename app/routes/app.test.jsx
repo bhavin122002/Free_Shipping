@@ -214,160 +214,160 @@ export default function LayoutExample() {
             <LegacyCard.Section>
               <div>
                 <div style={{ marginLeft: "7px" }}>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
                         Product Collection
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <TextField />
                         </div>
                       </div>
                     </Box>
                   </div>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
                         Product Title
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <TextField />
                         </div>
                       </div>
                     </Box>
                   </div>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
                         Product Tag
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <TextField />
                         </div>
                       </div>
                     </Box>
                   </div>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
                         Product SKU
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <TextField />
                         </div>
                       </div>
                     </Box>
                   </div>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
                         Product Vendor
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "30%" }}>
                           <TextField />
                         </div>
                       </div>
                     </Box>
                   </div>
-                  <div style={{ margin: "15px 0 15px 0", width: "100%" }}>
+                  <div style={{ margin: "15px 0 15px 0" }}>
                     <Box>
                       <Text variant="headingMd" as="h6">
-                        Product Metafield
+                        Product MetaField
                       </Text>
                       <div style={{ display: "flex", marginTop: "15px" }}>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "25%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "25%" }}>
                           <TextField placeholder="Key" />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "10px", width: "25%" }}>
                           <Select
                             options={options}
                             onChange={handleSelectChange}
                             value={selected}
                           />
                         </div>
-                        <div style={{ marginRight: "10px" }}>
+                        <div style={{ marginRight: "18px", width: "25%" }}>
                           <TextField placeholder="Value" />
                         </div>
                       </div>

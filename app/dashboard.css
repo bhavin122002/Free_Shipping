@@ -1,0 +1,155 @@
+/* First page */
+
+.free-shipping-text {
+    margin-top: 27px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    margin-bottom: 10px
+}
+
+.btn-rule {
+    text-align: center;
+    margin-top: 27px
+}
+
+/* Better Free Shipping / Edit Rule */
+
+.edit-rule {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.btn-group {
+    margin-bottom: 10px;
+    display: flex
+}
+
+.btn {
+    margin-right: 10px
+}
+
+.second-box {
+    margin-top: 20px;
+}
+
+.tabs {
+    margin-top: 10px
+}
+
+.text-tabs {
+    margin: 10px 0 10px 0
+}
+
+.select-box {
+    display: flex;
+    margin-top: 15px
+}
+
+.select-box-child {
+    width: 29%;
+    margin-right: 10px
+}
+
+.select-box-child-2 {
+    width: 6%;
+    margin: 7px 0 0px 0px
+}
+
+.select-box-second {
+    display: flex;
+    margin-top: 15px
+}
+
+.select-box-second-child {
+    width: 26%;
+    margin-right: 10px
+}
+
+.select-box-second-icon {
+    width: 7%;
+    margin: 7px 0 0px 0px
+}
+
+/* Third Page */
+
+.select-box-third {
+    display: flex;
+    margin-top: 15px
+}
+
+.select-box-third-child {
+    width: 28%;
+    margin-right: 10px
+}
+
+.select-box-third-child-text {
+    width: 26%;
+    margin: 0 0 15px
+}
+
+.select-box-third-child-btn {
+    margin-top: 15px
+}
+
+.fourth-box {
+    width: 100%;
+}
+
+.select-tabs {
+    margin-top: 10px
+}
+
+.fourth-btn {
+    margin-top: 15px
+}
+
+.btn-group-last {
+    margin-top: 17px;
+    display: flex;
+    justify-content: end
+}
+
+/* Fourth page */
+
+.customer-box {
+    margin: 10px
+}
+
+.customer-text-group {
+    margin-left: 10px
+}
+
+.select-box-group {
+    margin-left: 25px
+}
+
+.customer-tag-box {
+    margin: 15px 0 15px 0
+}
+
+.select-box-group-parant {
+    display: flex;
+    margin-top: 15px
+}
+
+.select-box-group-child {
+    width: 29%;
+    margin-right: 10px
+}
+
+.select-box-group-second {
+    margin: 15px 0 15px 0
+}
+
+.select-box-group-second-child {
+    display: flex;
+    margin-top: 15px
+}

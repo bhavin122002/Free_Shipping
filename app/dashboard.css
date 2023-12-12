@@ -11,7 +11,8 @@
 }
 
 .btn-add {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 .btn-rule {
@@ -152,4 +153,8 @@
 .select-box-group-second-child {
     display: flex;
     margin-top: 15px
+}
+
+.border-second {
+    margin: 15px;
 }

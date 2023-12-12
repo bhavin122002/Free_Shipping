@@ -17,7 +17,6 @@ import {
 } from "@shopify/polaris";
 import React, { useCallback, useState } from "react";
 import { DeleteMajor, CancelMajor } from "@shopify/polaris-icons";
-import { useNavigate } from "@remix-run/react";
 import dashboard from "../../app/dashboard.css";
 
 export const links = () => [{ rel: "stylesheet", href: dashboard }];
@@ -31,7 +30,6 @@ export default function LayoutExample() {
   const [rateName, setRteName] = useState([1]);
   const [activeButtonIndex, setActiveButtonIndex] = useState(0);
   const [activeButton, setActiveButton] = useState(0);
-  const navigation = useNavigate();
   const handleChange = useCallback((newChecked) => setChecked(newChecked), []);
   const handleChangeVal = useCallback(
     (newChecked) => setCheckedVal(newChecked),
@@ -106,17 +104,14 @@ export default function LayoutExample() {
 
   return (
     <Page
-      backAction={{ content: "Settings", url: "/app/first" }}
+      backAction={{ content: "Settings", url: "/app/homepage" }}
       title="Better Free Shipping / Edit Rule"
       compactTitle
       secondaryActions={[
         { content: "Cancel", disabled: true },
         { content: "Delete", disabled: true },
       ]}
-      primaryAction={{
-        content: "Save",
-        onAction: () => navigation("/app/first"),
-      }}
+      primaryAction={<Button variant="primary">Save</Button>}
     >
       <BlockStack gap="500">
         <Divider borderColor="border-inverse" />
@@ -328,10 +323,7 @@ export default function LayoutExample() {
               { content: "Cancel", disabled: true },
               { content: "Delete", disabled: true },
             ]}
-            primaryAction={{
-              content: "Save",
-              onAction: () => navigation("/app/first"),
-            }}
+            primaryAction={<Button variant="primary">Save</Button>}
           />
         </Card>
       </BlockStack>

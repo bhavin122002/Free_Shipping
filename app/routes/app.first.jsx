@@ -1,36 +1,39 @@
-import react from "react";
-import { Page, Card, Icon, Button, Text, Box } from "@shopify/polaris";
-import { EditMajor } from "@shopify/polaris-icons";
-import dashboard from "../../app/dashboard.css";
+import {
+  Page,
+  EmptyState,
+  Divider,
+  BlockStack,
+  Card,
+  Button,
+} from "@shopify/polaris";
+import { useNavigate } from "@remix-run/react";
+import React from "react";
 
-export const links = () => [{ rel: "stylesheet", href: dashboard }];
-
-export default function appFirst() {
+export default function PageExample() {
+  const navigation = useNavigate();
   return (
-    <Page>
-      <Card>
-        <div className="main-content">
-          <div className="btn-add">
-            <Text variant="headingXl" as="h4" alignment="start">
-              Better Free Shipping
-            </Text>
-          </div>
-          <div className="btn-add">
-            <Button>Add Rule</Button>
-          </div>
-        </div>
-        <Card padding={1200}>
-          <Icon source={EditMajor} tone="base" />
-          <div className="free-shipping-text">
-            <Text variant="headingXl" as="h4" alignment="center">
-              Add Your First Free Shipping Rule
-            </Text>
-          </div>
-          <div className="btn-rule">
-            <Button>Add Rule</Button>
-          </div>
+    <Page
+      title="Better Free Shipping"
+      compactTitle
+      primaryAction={{
+        content: "Add Rule",
+        disabled: false,
+        onAction: () => navigation("/app/editRule"),
+      }}
+    >
+      <BlockStack gap="500">
+        <Divider borderColor="border-inverse" />
+        <Card>
+          <EmptyState
+            heading=" Add Your First Free Shipping Rule"
+            action={{
+              content: "Add Rule",
+              onAction: () => navigation("/app/editRule"),
+            }}
+            image="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
+          ></EmptyState>
         </Card>
-      </Card>
+      </BlockStack>
     </Page>
   );
 }

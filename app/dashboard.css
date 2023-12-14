@@ -158,3 +158,40 @@
 .border-second {
     margin: 15px;
 }
+
+
+.toggle input {
+    display: none;
+  }
+  
+  /* Slider style */
+  .slider {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 24px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Rounded slider */
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+  
+  .toggle input:checked + .slider {
+    background-color: #2196F3; 
+  }
+  
+  .toggle input:checked + .slider:before {
+    transform: translateX(26px);
+  }

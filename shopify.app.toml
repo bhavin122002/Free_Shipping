@@ -2,7 +2,7 @@
 
 name = "better-free-shipping"
 client_id = "6ac6fc9b7d3a8a65f4cde5fa47a99ef0"
-application_url = "https://million-is-ghost-keys.trycloudflare.com"
+application_url = "https://dover-sapphire-jack-mali.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,10 +11,10 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://million-is-ghost-keys.trycloudflare.com/auth/callback",
-  "https://million-is-ghost-keys.trycloudflare.com/auth/shopify/callback",
-  "https://million-is-ghost-keys.trycloudflare.com/api/auth/callback",
-  "https://million-is-ghost-keys.trycloudflare.com/.shopify/graphiql/auth/callback"
+  "https://dover-sapphire-jack-mali.trycloudflare.com/auth/callback",
+  "https://dover-sapphire-jack-mali.trycloudflare.com/auth/shopify/callback",
+  "https://dover-sapphire-jack-mali.trycloudflare.com/api/auth/callback",
+  "https://dover-sapphire-jack-mali.trycloudflare.com/.shopify/graphiql/auth/callback"
 ]
 
 [webhooks]
